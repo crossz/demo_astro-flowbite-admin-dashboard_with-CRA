@@ -1,0 +1,9 @@
+
+---
+import LayoutSidebar from '../../app/LayoutSidebar.astro';
+import { index2 as App2a} from '../../components/cra-app/src/index2.jsx';
+---
+
+<LayoutSidebar>
+	<App2a client:only="react"/>
+</LayoutSidebar>
